@@ -64,12 +64,13 @@ func Start(bot *gotgbot.Bot, ctx *ext.Context) error {
 	user := ctx.EffectiveSender.User
 	text := `
 <b>Hello <a href="tg://user?id=%v">%v</a></b>
-I am a bot for accepting newly coming join requests at the time they comes.
+I am a bot for accepting newly coming join requests.
+
  <b><a href="https://telegra.ph/Accept-Join-Request-Help-03-03">Help Me </a> - Its Help You To know How to Use Me</b> 
 
-Bot made with 💝 by <a href="t.me/fbb_alone">Fraud_Boy_Bgm</a>  for you!
+Bot made with 💝 by <a href="https://t.me/+Ngd7XKW_pZcxYWY1">Fraud Boy Bgm</a>  for you!
 
-<b> My Developer :</b> <b><a href="t.me/fbb_alone">Fraud Boy Bgm</a></b>
+<b> My Developer :</b> <b><a href="t.me/fbb_alone">My Father</a></b>
 
 <b> You Must Join Below channels to Use Me </b>
 	`
