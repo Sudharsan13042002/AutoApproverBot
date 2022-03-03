@@ -1,5 +1,5 @@
 //   Approver Bot
-//   Copyright (C) 2021 Reeshuxd (@reeshuxd)
+//   Copyright (C) 2021 Fraud boy bgm)
 
 package main
 
@@ -41,6 +41,7 @@ func main() {
 		})
 	dp := updater.Dispatcher
 
+	
 	// Commands
 	dp.AddHandler(handlers.NewCommand("start", Start))
 	dp.AddHandler(handlers.NewChatJoinRequest(nil, Approve))
@@ -51,7 +52,7 @@ func main() {
 		fmt.Println("Failed to start bot:", poll.Error())
 	}
 
-	fmt.Printf("@%s has been sucesfully started\n💝Made by @ItsReeshu\n", bot.Username)
+	fmt.Printf("@%s has been sucesfully started\n💝Made by @fbb_alone\n", bot.Username)
 	updater.Idle()
 }
 
@@ -63,11 +64,14 @@ func Start(bot *gotgbot.Bot, ctx *ext.Context) error {
 	user := ctx.EffectiveSender.User
 	text := `
 <b>Hello <a href="tg://user?id=%v">%v</a></b>
-I am a bot made for accepting newly coming join requests at the time they comes.
-I am made with <a href="go.dev">golang</a> to give a better performance!
+I am a bot for accepting newly coming join requests at the time they comes.
+ <b><a href="https://telegra.ph/Accept-Join-Request-Help-03-03">Help Me </a> - Its Help You To know How to Use Me</b> 
 
-Bot made with 💝 by <a href="t.me/AboutReeshu">Reeshu</a> for you!
-<b>Support Chat:</b> @UserChatRoom
+Bot made with 💝 by <a href="t.me/fbb_alone">Fraud_Boy_Bgm</a>  for you!
+
+<b> My Developer :</b> <b><a href="t.me/fbb_alone">Fraud Boy Bgm</a></b>
+
+<b> You Must Join Below channels to Use Me </b>
 	`
 	ctx.EffectiveMessage.Reply(
 		bot,
@@ -75,7 +79,8 @@ Bot made with 💝 by <a href="t.me/AboutReeshu">Reeshu</a> for you!
 		&gotgbot.SendMessageOpts{
 			ReplyMarkup: gotgbot.InlineKeyboardMarkup{
 				InlineKeyboard: [][]gotgbot.InlineKeyboardButton{{
-					{Text: "My Source Code", Url: "https://github.com/Reeshuxd/AutoApproverBot"},
+					{Text: "Main Channel", Url: "https://t.me/+Ngd7XKW_pZcxYWY1"},
+					{Text: "Update Channel", Url: "https://t.me/+vz5Bij9vfANhNzNl"},
 				}},
 			},
 			ParseMode:             "html",
