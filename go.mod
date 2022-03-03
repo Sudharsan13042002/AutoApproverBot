@@ -1,4 +1,4 @@
-module github.com/Reeshuxd/AutoApproverBot
+module github.com/Fraud-Boy-Bgm/AutoApproverBot
 
 // +heroku goVersion go1.17
 go 1.17
