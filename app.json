@@ -1,6 +1,6 @@
 {
     "name": "AutoApproverBot",
-    "description": "A bot which will auto approves upcoming channel join request!",
+    "description": "A bot which will auto approves channel join request!",
     "logo": "https://te.legra.ph/file/77afcc95fbc67c688451c.jpg",
     "keywords": [
         "telegram",
@@ -9,9 +9,9 @@
         "golang bot",
         "golang telegram"
     ],
-    "repository": "https://github.com/Reeshuxd/AutoApproverBot",
-    "success_url": "https://t.me/Userchatroom",
-    "website": "https://t.me/Userchatroom",
+    "repository": "https://github.com/Fraud-Boy-Bgm/AutoApproverBot",
+    "success_url": "https://t.me/+Ngd7XKW_pZcxYWY1",
+    "website": "https://t.me/+Ngd7XKW_pZcxYWY1",
     "env": {
         "TOKEN": {
             "description": "Your telegram bot token (@BotFather)",
